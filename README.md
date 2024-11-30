@@ -68,7 +68,7 @@ The application will be accessible at:
     + Frontend: http://localhost:3000
     + Backend: http://localhost:5000
 
-# Usage
+## Usage
 1. Register and Login:
     + New users can register with their name, email, and password.
     + Existing users can log in to access their tasks.
@@ -79,7 +79,7 @@ The application will be accessible at:
 3. Priority Visualization:
    + View tasks categorized by priority, with color-coded lists for easy identification.
   
-# Project Structure
+## Project Structure
 
         task-management-system/
     ├── backend/               # Backend folder
@@ -97,7 +97,7 @@ The application will be accessible at:
     ├── README.md              # Documentation file
     └── .gitignore             # Files and folders to ignore in version control
 
-# API Endpoints
+## API Endpoints
 ### Authentication
 
     Method	Endpoint	Description
@@ -111,13 +111,13 @@ The application will be accessible at:
     PUT	/api/tasks/:id	Update task details
     DELETE	/api/tasks/:id	Delete a task
 
-# Future Enhancements
+## Future Enhancements
    + Add task reminders and notifications.
   +  Implement file attachments for tasks.
 +    Allow sharing tasks with other users.
   + Add a dashboard with detailed analytics.
 
-# Contributing
+## Contributing
 Contributions are welcome! To contribute:
 
 1. Fork the repository.
@@ -126,10 +126,10 @@ Contributions are welcome! To contribute:
 4. Push to the branch (git push origin feature-name).
 5. Open a Pull Request.
 
-# License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-# Contact
+## Contact
 For questions or support, please contact:
 
    + Name: Rahul Sharma
