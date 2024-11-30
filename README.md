@@ -5,7 +5,7 @@ A web-based application for managing tasks efficiently. The system allows users 
   + Task Management:
     +   View a list of tasks with pagination.
       +  Edit task details (title, description, and due date).
-        + Delete tasks with a confirmation prompt.
+    +  Delete tasks with a confirmation prompt.
     + Update task statuses (e.g., pending, completed).
   + Priority Management:
      + Tasks can be assigned priority levels.
@@ -15,7 +15,7 @@ A web-based application for managing tasks efficiently. The system allows users 
     +   Authorization to ensure only logged-in users can access tasks.
 + Visual Representation:
     + Color-coded priority lists for easy distinction.
-    + Responsive Design:
++ Responsive Design:
     +  Optimized for both desktop and mobile devices.
 
 ## Tech Stack
@@ -82,7 +82,7 @@ The application will be accessible at:
 # Project Structure
 
         task-management-system/
-        ├── backend/               # Backend folder
+    ├── backend/               # Backend folder
     │   ├── models/            # MongoDB models (e.g., Task, User)
     │   ├── routes/            # API route handlers
     │   ├── middleware/        # Authentication middleware
