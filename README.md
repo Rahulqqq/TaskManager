@@ -35,18 +35,25 @@ A web-based application for managing tasks efficiently. The system allows users 
  
 ## Installation and Setup
 Follow these steps to set up the project locally:
-### 1. Clone the Repository
+#### 1. Clone the Repository
     git clone https://github.com/<your-username>/task-management-system.git
     cd task-management-system
-### 2. Install Dependencies
+#### 2. Install Dependencies
 Install both frontend and backend dependencies:
- [//]: <> Navigate to the frontend directory
+ <!---  Navigate to the frontend directory -->
     cd frontend
     npm install
 
- [//]: <> Navigate to the backend directory
+ <!-- Navigate to the backend directory -->
       cd ../backend
       npm install
+### 3. Configure Environment Variables
+ Create a .env file in the backend directory and add the following: 
+ 
+    PORT=5000
+    MONGO_URI=your-mongodb-uri
+    JWT_SECRET=your-secret-key
+
 
 
 
