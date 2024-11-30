@@ -47,13 +47,91 @@ Install both frontend and backend dependencies:
  <!-- Navigate to the backend directory -->
       cd ../backend
       npm install
-### 3. Configure Environment Variables
+#### 3. Configure Environment Variables
  Create a .env file in the backend directory and add the following: 
  
     PORT=5000
     MONGO_URI=your-mongodb-uri
     JWT_SECRET=your-secret-key
+#### 4. Start the Application
+Run the frontend and backend servers simultaneously:
 
+    Start the backend server
+    cd backend
+    npm start
 
+<!-- In a new terminal, start the frontend server -->
+      
+      cd frontend
+      npm start
+The application will be accessible at:
+    + Frontend: http://localhost:3000
+    + Backend: http://localhost:5000
 
+# Usage
+1. Register and Login:
+    + New users can register with their name, email, and password.
+    + Existing users can log in to access their tasks.
+2. Task Management:
+    + Create tasks with a title, description, due date, and priority.
+    + Edit task details or mark tasks as completed.
+    +  Delete tasks with a confirmation prompt.
+3. Priority Visualization:
+   + View tasks categorized by priority, with color-coded lists for easy identification.
+  
+# Project Structure
 
+        task-management-system/
+        ├── backend/               # Backend folder
+    │   ├── models/            # MongoDB models (e.g., Task, User)
+    │   ├── routes/            # API route handlers
+    │   ├── middleware/        # Authentication middleware
+    │   ├── server.js          # Entry point for backend
+    │   └── .env               # Environment variables
+    ├── frontend/              # Frontend folder
+    │   ├── public/            # Public assets
+    │   ├── src/               # React components and pages
+    │   ├── App.js             # Main React app component
+    │   ├── index.js           # React entry point
+    │   └── package.json       # Frontend dependencies
+    ├── README.md              # Documentation file
+    └── .gitignore             # Files and folders to ignore in version control
+
+# API Endpoints
+### Authentication
+
+    Method	Endpoint	Description
+    POST	/api/users/register	Register a new user
+    POST	/api/users/login	Log in a user
+### Tasks
+    Method	Endpoint	Description
+    GET	/api/tasks	Fetch all tasks
+    POST	/api/tasks	Create a new task
+    GET	/api/tasks/:id	Get details of a specific task
+    PUT	/api/tasks/:id	Update task details
+    DELETE	/api/tasks/:id	Delete a task
+
+# Future Enhancements
+   + Add task reminders and notifications.
+  +  Implement file attachments for tasks.
++    Allow sharing tasks with other users.
+  + Add a dashboard with detailed analytics.
+
+# Contributing
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-name).
+3. Commit your changes (git commit -m "Add feature").
+4. Push to the branch (git push origin feature-name).
+5. Open a Pull Request.
+
+# License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+# Contact
+For questions or support, please contact:
+
+   + Name: Rahul Sharma
+  + Email: rahul@example.com
+  + GitHub: Rahulqqq
