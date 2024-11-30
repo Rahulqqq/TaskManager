@@ -8,8 +8,8 @@ A web-based application for managing tasks efficiently. The system allows users 
         + Delete tasks with a confirmation prompt.
     + Update task statuses (e.g., pending, completed).
   + Priority Management:
-    + Tasks can be assigned priority levels.
-   + Move tasks between different priority categories.
+     + Tasks can be assigned priority levels.
+     + Move tasks between different priority categories.
 + User Authentication:
     + Register and login securely using hashed passwords.
     +   Authorization to ensure only logged-in users can access tasks.
@@ -32,4 +32,21 @@ A web-based application for managing tasks efficiently. The system allows users 
 + Development Tools:
     + Visual Studio Code
     + Postman (for API testing)
+ 
+## Installation and Setup
+Follow these steps to set up the project locally:
+### 1. Clone the Repository
+    git clone https://github.com/<your-username>/task-management-system.git
+    cd task-management-system
+### 2. Install Dependencies
+Install both frontend and backend dependencies:
+ [//]: <> Navigate to the frontend directory
+    cd frontend
+    npm install
+
+ [//]: <> Navigate to the backend directory
+      cd ../backend
+      npm install
+
+
 
