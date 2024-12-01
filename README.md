@@ -1,4 +1,7 @@
 # Task Management System
+![Screenshot (120)](https://github.com/user-attachments/assets/cfe9bf88-0a73-4887-8d45-e6b8c1929661)
+![Screenshot (119)](https://github.com/user-attachments/assets/49f1a9a4-56e2-431b-9126-d9e8833e32cf)
+
 A web-based application for managing tasks efficiently. The system allows users to create, edit, delete, and manage tasks with priority levels. It also supports user authentication and authorization to ensure secure access.
 ## Features
   + Task Creation: Users can create new tasks with a title, description, and due date.
